@@ -1,0 +1,108 @@
+.contact {
+  margin-top: 0px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact__title {
+  color: white;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact .contact__title p {
+  max-width: 70%;
+}
+
+.contact form {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact form input,
+.contact form textarea {
+  margin: 10px 0px;
+  background-color: #15202b;
+  border: white solid;
+  outline: none;
+  color: white;
+  padding: 10px;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.contact form input:focus {
+  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff;
+          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff;
+}
+
+.contact form textarea:focus {
+  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff;
+          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff;
+}
+
+.contact form input[type="submit"] {
+  cursor: pointer;
+  width: 50%;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 991.98px) {
+  .contact .contact__title p {
+    font-size: 12px;
+  }
+  .contact form {
+    width: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 767.98px) {
+  .contact form {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .contact form {
+    width: 70%;
+  }
+}
+/*# sourceMappingURL=Contact.css.map */

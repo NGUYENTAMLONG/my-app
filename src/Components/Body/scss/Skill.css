@@ -1,0 +1,271 @@
+.skill {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.skill .col_1 .skills {
+  width: inherit;
+  position: relative;
+}
+
+.skill .col_1 .skills ul {
+  padding-top: 30px;
+  list-style: none;
+}
+
+.skill .col_1 .skills ul > li {
+  margin-bottom: 50px;
+  background: #dedede;
+  height: 6px;
+}
+
+.skill .col_1 .skills ul > li em {
+  font-size: 18px;
+  position: relative;
+  top: -30px;
+}
+
+.skill .col_1 .skills ul > li span {
+  height: inherit;
+  background: -webkit-gradient(linear, left top, right top, from(#15202b), to(#143c79));
+  background: linear-gradient(90deg, #15202b, #143c79);
+  position: absolute;
+  left: 0;
+}
+
+.skill .col_1 .skills .html5 {
+  width: 90%;
+  -webkit-animation: html5 2s ease-out;
+          animation: html5 2s ease-out;
+}
+
+.skill .col_1 .skills .css3 {
+  width: 80%;
+  -webkit-animation: css3 2s ease-out;
+          animation: css3 2s ease-out;
+}
+
+.skill .col_1 .skills .js {
+  width: 50%;
+  -webkit-animation: js 2s ease-out;
+          animation: js 2s ease-out;
+}
+
+.skill .col_1 .skills .jquery {
+  width: 60%;
+  -webkit-animation: jquery 2s ease-out;
+          animation: jquery 2s ease-out;
+}
+
+.skill .col_1 .skills .uiux {
+  width: 70%;
+  -webkit-animation: uiux 2s ease-out;
+          animation: uiux 2s ease-out;
+}
+
+.skill .col_1 .skills .teamwork {
+  width: 80%;
+  -webkit-animation: teamwork 2s ease-out;
+          animation: teamwork 2s ease-out;
+}
+
+@-webkit-keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes html5 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes css3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes css3 {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@-webkit-keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@-webkit-keyframes jquery {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@keyframes jquery {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 60%;
+  }
+}
+
+@-webkit-keyframes uiux {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes uiux {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@-webkit-keyframes teamwork {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+@keyframes teamwork {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
+.skill .col_2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.skill .col_2 img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.skill .col_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skill .col_3 .numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 25px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.685);
+  padding: 10px;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (max-width: 1199.98px) {
+  .skills .col_2 img {
+    width: 70%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 767.98px) {
+  .skills .col_2 img {
+    width: 70%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .skill h1 {
+    margin-top: 20px;
+  }
+  .skill .col_1 .skills {
+    margin-bottom: -30px;
+    right: 20px;
+  }
+  .skill .col_2 img {
+    display: none !important;
+  }
+  .skill .col_3 .numbers {
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=Skill.css.map */
