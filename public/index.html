@@ -165,18 +165,26 @@
     var menuBar = document.querySelector(".bar_rps");
     var closeIcon = document.querySelector(".fa-times-circle");
     var navItems = document.querySelectorAll(".nav_item");
+    var cover = document.querySelector(".cover");
 
     barIcon.onclick = function () {
       menuBar.style.transform = "translateX(0%)";
+      cover.style.width = "100%";
     };
     closeIcon.onclick = function () {
       menuBar.style.transform = "translateX(110%)";
+      cover.style.width = "0%";
     };
     navItems.forEach((item, index) => {
       item.onclick = function () {
         menuBar.style.transform = "translateX(110%)";
+        cover.style.width = "0%";
       };
     });
+    cover.onclick = () => {
+      menuBar.style.transform = "translateX(110%)";
+      cover.style.width = "0%";
+    };
   </script>
   <!-- scroll handle-->
   <script>

@@ -19,7 +19,6 @@
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-
     .avatar {
       position: relative;
       overflow: hidden;
@@ -27,6 +26,9 @@
         border-radius: 20px;
         width: 50%;
       }
+    }
+    p {
+      z-index: 105;
     }
     span {
       text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #fff,

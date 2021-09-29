@@ -6,10 +6,12 @@ import Skill from "./Skill";
 import Rotate from "react-reveal/Rotate";
 import Zoom from "react-reveal/Zoom";
 import Flip from "react-reveal/Flip";
+import Cover from "./Cover";
 
 export default function Body() {
   return (
     <div className="body">
+      <Cover />
       <section className="about container " id="about">
         <Rotate left>
           <div className="row">

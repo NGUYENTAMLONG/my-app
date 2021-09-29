@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    z-index: 11;
+    z-index: 100;
     .typical {
       color: orange;
     }
@@ -196,10 +196,14 @@ body::-webkit-scrollbar {
       margin-top: 15px;
       margin-left: 10px;
     }
+
     .test {
       top: calc(50% - 164px / 2 - 104.5px);
       h1 {
-        font-size: 23px;
+        font-size: 30px;
+      }
+      .typical {
+        zoom: 2;
       }
       p {
         font-size: 10px;
