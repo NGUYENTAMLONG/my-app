@@ -1,11 +1,13 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
 import "./scss/Header.css";
-// import imgbg from "../Images/forest.jpg";
+import camp from "../Images/camp.png";
+import fire from "../Images/fire.gif";
+import man2 from "../Images/man2.gif";
+import dog from "../Images/dog.gif";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
 import Flip from "react-reveal/Flip";
-
 import Typical from "react-typical";
 export class Header extends Component {
   render() {
@@ -36,14 +38,11 @@ export class Header extends Component {
         <canvas id="pixie"></canvas>
         <div className="intro">
           <div className="effect"></div>
-          <img src="../Images/fire.gif" alt="" className="fire" />
-          <img src="../Images/camp.png" alt="" className="camp" />
-          {/* <img src="../Images/girl.gif" alt="" className="" /> */}
-
-          <img src=" ../Images/man2.gif" alt="" className="man" />
-          <img src=" ../Images/dog.gif" alt="" className="dog" />
+          <img src={fire} alt="" className="fire" />
+          <img src={camp} alt="" className="camp" />
+          <img src={man2} alt="" className="man" />
+          <img src={dog} alt="" className="dog" />
         </div>
-        {/* <img src="../Images/leaf1.png" alt="" className="camp" /> */}
         <Flip>
           <div className="c">©tamlong1604</div>
         </Flip>

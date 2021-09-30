@@ -2,6 +2,11 @@ import React from "react";
 import Contact from "./Contact";
 import Products from "./Products";
 import "./scss/Body.css";
+import avatar from "../Images/my_avatar.png";
+import obj from "../Images/obj.png";
+import book from "../Images/book.png";
+import web from "../Images/web.png";
+
 import Skill from "./Skill";
 import Rotate from "react-reveal/Rotate";
 import Zoom from "react-reveal/Zoom";
@@ -23,7 +28,7 @@ export default function Body() {
             <div className="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-lg-6 col1 ">
               <div className="avatar">
                 <Zoom delay={1000}>
-                  <img src="../Images/my_avatar.png" width="70%" />
+                  <img src={avatar} width="70%" />
                 </Zoom>
               </div>
               <p>
@@ -52,19 +57,19 @@ export default function Body() {
               <div className="row img_services">
                 <div className="service">
                   <Flip top delay={1000}>
-                    <img src="../Images/obj.png" id="obj" />
+                    <img src={obj} id="obj" />
                     <p>Motion design</p>
                   </Flip>
                 </div>
                 <div className="service">
                   <Flip top delay={1000}>
-                    <img src="../Images/book.png" id="book" />
+                    <img src={book} id="book" />
                     <p>App design</p>
                   </Flip>
                 </div>
                 <div className="service">
                   <Flip top delay={1000}>
-                    <img src="../Images/web.png" id="book" />
+                    <img src={web} id="book" />
                     <p>Web design</p>
                   </Flip>
                 </div>

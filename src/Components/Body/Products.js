@@ -1,6 +1,12 @@
 import React from "react";
 import Slider from "react-slick";
 import "./scss/Products.css";
+import p1 from "../Images/p1.gif";
+import p2 from "../Images/p2.png";
+import p3 from "../Images/p3.png";
+import p4 from "../Images/p3.gif";
+import p5 from "../Images/p5.png";
+import p6 from "../Images/p6.png";
 import Tada from "react-reveal/Tada";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
@@ -52,23 +58,23 @@ export default function Products() {
         <Fade bottom cascade>
           <Slider {...settings}>
             <a href="#">
-              <img src="../Images/p1.gif" />
+              <img src={p1} />
             </a>
             <a href="#">
-              <img src="../Images/p2.png" />
+              <img src={p2} />
             </a>
             <a href="#">
-              <img src="../Images/p3.png" />
+              <img src={p3} />
             </a>
             <a href="#">
-              <img src="../Images/p3.gif" />
+              <img src={p4} />
             </a>
 
             <a href="#">
-              <img src="../Images/p5.png" />
+              <img src={p5} />
             </a>
             <a href="#">
-              <img src="../Images/p6.png" />
+              <img src={p6} />
             </a>
           </Slider>
         </Fade>

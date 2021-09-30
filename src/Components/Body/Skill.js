@@ -1,5 +1,6 @@
 import React from "react";
 import "./scss/Skill.css";
+import devguy from "../Images/devguy2.gif";
 import Bounce from "react-reveal/Bounce";
 import Slide from "react-reveal/Slide";
 import Zoom from "react-reveal/Zoom";
@@ -47,7 +48,7 @@ export default function Skill() {
         <div className="col-xs-12 col-sm-4 col-md-4 col-lg-4 col_2">
           <div className="row">
             <Zoom>
-              <img src="../Images/devguy2.gif" />
+              <img src={devguy} />
             </Zoom>
           </div>
         </div>
