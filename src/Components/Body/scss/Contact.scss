@@ -78,6 +78,16 @@
 }
 @media (max-width: 575.98px) {
   .contact {
+    .contact__title {
+      p {
+        span {
+          display: none;
+        }
+      }
+    }
+    form {
+      width: 70%;
+    }
     form {
       width: 70%;
     }

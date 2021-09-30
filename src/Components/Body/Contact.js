@@ -15,9 +15,11 @@ export default function Contact() {
         <Flip bottom cascade>
           <p>
             I’m always interested in hearing about new projects and
-            opportunities. You can tell me about the problems you are trying to
-            solve. I'd love to listen and see if there's anything I can do to
-            help you.
+            opportunities.
+            <span>
+              You can tell me about the problems you are trying to solve.
+            </span>
+            I'd love to listen and see if there's anything I can do to help you.
           </p>
         </Flip>
       </div>
